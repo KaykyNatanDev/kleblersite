@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header,
+h3,
+h2,
+form button{
+    font-family: "Martian Mono", monospace;
+}
+
+p{
+    color: white;
+}
+
+p,
+input{
+    font-family: "Ubuntu", sans-serif;
+}
+
+h3{
+    color: white;
+
+}
+
+h2{
+    color: white;
+}
+
+body{
+    background-color: rgb(19, 18, 18);
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(46, 45, 45);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.index{
+    display: flex ;
+}
+
+.index li img{
+    margin-right: 26px;
+    height: 400px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    background-color:rgb(46, 45, 45) ;
+    margin-top: 10px;
+    color: white;
+}
+
+.pictures li img{
+    height: 200px;
+
+}
+
+.pictures{
+    display: flex;
+}
+
+.pictures li{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.contatos img{
+    height: 24px;
+}
+
+.contatos li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.contatos li a{
+    text-decoration:none ;
+}
+
+form button{
+    border: none;
+    cursor: pointer ;
+}
+
+form button:hover{
+    background-color:rgb(58, 57, 57) ;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(46, 45, 45);
+}
+
+footer{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    padding: 16px 0;
+}
